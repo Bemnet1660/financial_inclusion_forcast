@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+pycache/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environments
+.env
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (optional – commit only small samples)
+data/*.csv
+data/*.xlsx
+data/enriched/*.csv
+!data/enriched/data_enrichment_log.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
